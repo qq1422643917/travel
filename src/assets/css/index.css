@@ -1,0 +1,28 @@
+body {
+    font-size: 12px;
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: none;
+    font-family: helvetica;
+    background: #fff;
+  }
+  .sizing {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .sprite {
+    background: url(../images/icon/sprites.png) no-repeat;
+    background-size: 10rem auto;
+  }
+  input::-webkit-input-placeholder {
+    color: #fff !important;
+    opacity: .8;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 100%;
+    font-weight: normal;
+  }
